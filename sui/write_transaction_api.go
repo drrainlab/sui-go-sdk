@@ -7,6 +7,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+
 	"github.com/block-vision/sui-go-sdk/common/httpconn"
 	"github.com/block-vision/sui-go-sdk/models"
 	"github.com/tidwall/gjson"
@@ -256,7 +257,7 @@ func (s *suiWriteTransactionImpl) Pay(ctx context.Context, req models.PayRequest
 			req.SuiObjectId,
 			req.Recipient,
 			req.Amount,
-			req.Gas,
+			nil,
 			req.GasBudget,
 		},
 	})
