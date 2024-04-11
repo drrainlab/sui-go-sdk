@@ -2,10 +2,10 @@ package keypair
 
 import (
 	"encoding/base64"
-	"github.com/block-vision/sui-go-sdk/common/sui_error"
+	"github.com/drrainlab/sui-go-sdk/common/sui_error"
 	"math"
 
-	"github.com/block-vision/sui-go-sdk/models"
+	"github.com/drrainlab/sui-go-sdk/models"
 )
 
 type KeyPair byte

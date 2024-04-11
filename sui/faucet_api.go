@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/models"
+	"github.com/drrainlab/sui-go-sdk/constant"
+	"github.com/drrainlab/sui-go-sdk/models"
 	"io/ioutil"
 	"net/http"
 )

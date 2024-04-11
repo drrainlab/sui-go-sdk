@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/block-vision/sui-go-sdk/constant"
-	"github.com/block-vision/sui-go-sdk/models"
-	"github.com/block-vision/sui-go-sdk/sui"
-	"github.com/block-vision/sui-go-sdk/utils"
+	"github.com/drrainlab/sui-go-sdk/constant"
+	"github.com/drrainlab/sui-go-sdk/models"
+	"github.com/drrainlab/sui-go-sdk/sui"
+	"github.com/drrainlab/sui-go-sdk/utils"
 )
 
 var ctx = context.Background()

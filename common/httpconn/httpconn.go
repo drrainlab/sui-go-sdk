@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"github.com/block-vision/sui-go-sdk/models"
+	"github.com/drrainlab/sui-go-sdk/models"
 	"io/ioutil"
 	"net/http"
 	"time"

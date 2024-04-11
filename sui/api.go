@@ -4,7 +4,7 @@
 package sui
 
 import (
-	"github.com/block-vision/sui-go-sdk/common/httpconn"
+	"github.com/drrainlab/sui-go-sdk/common/httpconn"
 	"net/http"
 )
 

@@ -3,8 +3,8 @@ package sui
 import (
 	"context"
 	"encoding/json"
-	"github.com/block-vision/sui-go-sdk/common/wsconn"
-	"github.com/block-vision/sui-go-sdk/models"
+	"github.com/drrainlab/sui-go-sdk/common/wsconn"
+	"github.com/drrainlab/sui-go-sdk/models"
 	"github.com/tidwall/gjson"
 	"log"
 )

@@ -2,7 +2,7 @@ package models
 
 import (
 	"encoding/json"
-	"github.com/block-vision/sui-go-sdk/models/sui_types"
+	"github.com/drrainlab/sui-go-sdk/models/sui_types"
 	"github.com/tidwall/gjson"
 )
 

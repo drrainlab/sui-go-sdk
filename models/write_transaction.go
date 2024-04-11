@@ -2,7 +2,7 @@ package models
 
 import (
 	"crypto/ed25519"
-	"github.com/block-vision/sui-go-sdk/models/sui_types"
+	"github.com/drrainlab/sui-go-sdk/models/sui_types"
 )
 
 type ExecutionMode string
